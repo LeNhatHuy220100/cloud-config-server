@@ -3,4 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: https://mysterious-harbor-17300.herokuapp.com/
+      defaultZone: https://mysterious-harbor-17300.herokuapp.com/eureka
+    instance:
+      hostname: mysterious-harbor-17300.herokuapp.com
