@@ -4,5 +4,3 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: https://mysterious-harbor-17300.herokuapp.com/
-  instance:
-    hostname: localhost
