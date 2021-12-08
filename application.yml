@@ -3,4 +3,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: https://mysterious-harbor-17300.herokuapp.com/eureka
+      defaultZone: ${EUREKA_URI:https://mysterious-harbor-17300.herokuapp.com//eureka}
